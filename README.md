@@ -35,3 +35,11 @@ Una simple calculadora construida con React para realizar operaciones matemátic
     ```bash
     npm start
     ```
+
+## Aviso de Vulnerabilidades
+
+Si experimentas problemas relacionados con vulnerabilidades al descargar las dependencias, puedes intentar resolverlos ejecutando el siguiente comando en la terminal:
+
+```bash
+npm audit fix --force
+```
