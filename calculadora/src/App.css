@@ -1,0 +1,196 @@
+body{
+  background-color: tomato;
+  display: flex;
+  justify-content: center;
+}
+
+.luces {
+  background-image: url(https://lh6.googleusercontent.com/-0-h4Co-Y-nI/TuuwZct5hrI/AAAAAAAAB-g/RKjXYFZwlHY/s500/luces%25252012.gif);
+  background-repeat:repeat-x;
+  height:47px;
+  width:100%;
+  position:absolute;
+  top:0;
+  left:0;
+}
+
+:root{
+  --color_main: rgb(189, 227, 255);
+  --color_componentes: white;
+}
+
+.MainContainer{
+
+  width: 70vw;
+  min-height: 40vh;
+  background-color: var(--color_main);
+  border-radius: 20px;
+  border-style: solid;
+  box-shadow: 4px 5px 1px 0px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 20%;
+  
+}
+
+.TextContainer{
+  width: 85%;
+  height: 5vh;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.InputText{
+  border: none;
+  background-color: var(--color_componentes);
+  width: 100%;
+  height: 100%;
+  border-radius: 20px;
+  border-style: solid;
+}
+
+.ContainerNumber{
+  width: 80%;
+  margin-top: 10%;
+  margin-bottom: 5%;
+  display: flex;
+  flex-direction: column;
+  background-color: rgb(249, 249, 248);
+  padding: 4%;
+  border-radius: 30px;
+  border: none;
+  border-color: darkgrey;
+  border-style: inherit;
+
+}
+
+.button_row{
+  display: flex;
+  justify-content: space-between;
+  margin-top: 2%;
+  
+}
+
+.BotonesNums{
+  width: 30%;
+  height: 5vh;
+}
+
+.BotonBorrar{
+  width: 100%;
+}
+
+.BotonesOps{
+  width: 22.5%;
+  height: 5vh;
+}
+
+button{
+  border-radius: 10px;
+  background: white;
+  border: none;
+  border-style: solid;
+  font-size: large;
+}
+
+button:hover{
+  background-color: darkgrey;
+}
+
+input{
+  font-size: 24px;
+  text-align: right;
+  font-weight: 600;
+}
+
+@media only screen and (min-width: 1024px) {
+  
+    .MainContainer{
+      width: 30vw;
+      min-height: 40vh;
+      margin-top: 10%;
+    }
+    
+    .InputText{
+      height: 160%;
+    }
+
+    .BotonesNums{
+      width: 30%;
+      height: 8vh;
+    }
+    
+  
+    .BotonesOps{
+      width: 22.5%;
+      height: 8vh;
+    }
+    button{
+      font-weight: 500;
+      font-size: 60px;
+    }
+
+    input{
+      font-size: 50px;
+    }
+
+  }
+
+  @media only screen and (min-width: 768px) {
+  
+      .MainContainer{
+        width: 50vw;
+        min-height: 40vh;
+        
+      }
+      
+      .InputText{
+        height: 160%;
+      }
+    
+      .BotonesNums{
+        width: 30%;
+        height: 10vh;
+      }
+      
+      
+      .BotonesOps{
+        width: 22.5%;
+        height: 10vh;
+      }
+      input{
+        font-size: 50px;
+      }
+    }
+
+    @media only screen and (min-width: 1920px) {
+  
+      .MainContainer{
+        width: 30vw;
+        min-height: 40vh;
+        margin-top: 10%;
+      }
+      
+      .InputText{
+        height: 120%;
+      }
+    
+      .BotonesNums{
+        width: 30%;
+        height: 7vh;
+      }
+      
+      
+      .BotonesOps{
+        width: 22.5%;
+        height: 7vh;
+      }
+
+      button{
+        font-weight: 500;
+        font-size: 60px;
+      }
+
+    }
