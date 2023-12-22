@@ -2,7 +2,8 @@
 
 Una simple calculadora construida con React para realizar operaciones matemáticas básicas.
 
-![Calculadora React](https://imgur.com/a/9yBAdjy)
+![Calculadora humilde](https://github.com/RogerG03/Calculadora-React/assets/126338113/7cd3716c-e331-462b-a046-bb7f0dde6131)
+
 
 ## Características
 
