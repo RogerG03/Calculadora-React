@@ -2,7 +2,7 @@
 
 Una simple calculadora construida con React para realizar operaciones matemáticas básicas.
 
-![Calculadora React](https://imgur.com/a/9yBAdjy)
+![Calculadora React]([https://imgur.com/a/9yBAdjy](https://imgur.com/a/9yBAdjy))
 
 ## Características
 
